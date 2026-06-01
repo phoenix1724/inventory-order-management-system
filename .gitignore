@@ -1,0 +1,32 @@
+# Local Environment & Secrets
+.env
+.env.local
+.env.*
+
+# Python virtual environment and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+*.db
+inventory.db
+local.db
+
+# Node & Frontend dependencies/build files
+node_modules/
+dist/
+build/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vite/
+.eslintcache
+
+# OS Files
+.DS_Store
+Thumbs.db
