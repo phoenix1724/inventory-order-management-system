@@ -5,6 +5,7 @@ from typing import List
 
 from . import models, schemas, crud, database
 from .database import engine, get_db
+from .config import settings
 
 # Create DB tables if they do not exist
 models.Base.metadata.create_all(bind=engine)
