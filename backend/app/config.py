@@ -3,6 +3,7 @@ from pydantic import Field
 
 class Settings(BaseSettings):
     database_url: str = Field(default="sqlite:///./inventory.db", alias="DATABASE_URL")
+    cors_origins: str = Field(default="*", alias="CORS_ORIGINS")
     
     class Config:
         env_file = ".env"
